@@ -1,0 +1,12 @@
+.Dictionary {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-input {
+  width: 70%;
+}
+
+.submit-button {
+  width: 30%;
+}
