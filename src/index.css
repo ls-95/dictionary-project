@@ -11,6 +11,7 @@ body {
     rgba(192, 229, 246, 0.6) 64%
   );
   font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
 }
 
 code {
