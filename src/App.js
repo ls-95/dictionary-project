@@ -1,12 +1,10 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
-import explore from "./explore.jpg";
 
 export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={explore} className="App-logo img-fluid" alt="logo" />
         <h1>Welcome</h1>
         <h3>What word do you want to look up?</h3>
       </header>
