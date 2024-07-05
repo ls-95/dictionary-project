@@ -3,7 +3,8 @@ import GeneralSynonyms from "./GeneralSynonyms";
 import "./Results.css";
 
 export default function Results(props) {
-  console.log(props.info.meanings[0].synonyms);
+  //console.log(props.info.meanings[0].synonyms);
+
   if (props.info) {
     return (
       <div className="Results">
