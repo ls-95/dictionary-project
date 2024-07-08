@@ -3,7 +3,7 @@ export default function Phonetic(props) {
   if (props.phonetic.audio.length > 1) {
     return (
       <div className="Phonetics">
-        <a href={props.phonetic.audio} target="_blank">
+        <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
           Listen
         </a>
         <p>{props.phonetic.text}</p>
