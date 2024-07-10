@@ -6,7 +6,7 @@ import "./Results.css";
 export default function Results(props) {
   if (props.info) {
     //console.log(props.info.meanings[0].synonyms);
-    console.log(props.info);
+    //console.log(props.info);
     return (
       <div className="Results">
         <section>
