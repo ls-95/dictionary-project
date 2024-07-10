@@ -1,9 +1,16 @@
+import "./Synonyms.css";
+
 export default function Synonyms(props) {
-  if (props.synonyms) {
+  if (props.synonyms.length > 1) {
     return (
-      <ul>
+      <ul className="Synonyms">
         {props.synonyms.map(function (synonyms, index) {
-          return <li key={index}>{synonyms} </li>;
+          return (
+            <li key={index}>
+              {synonyms}
+              {index < props.synonyms.length - 1 ? ", " : ""}{" "}
+            </li>
+          );
         })}
       </ul>
     );

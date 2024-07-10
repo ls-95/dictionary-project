@@ -1,6 +1,21 @@
 form input {
-  width: 226px;
+  width: 100%;
   border: 3px solid black;
-  border-radius: 50px;
+  border-radius: 5px;
   padding: 10px 20px;
+  color: #333;
+}
+
+.Dictionary .first-section {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.Dictionary section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin: 30px auto 0 auto;
 }

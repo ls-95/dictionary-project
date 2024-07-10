@@ -1,3 +1,7 @@
-.Meaning {
-  padding-top: 30px;
+.definitions {
+  padding: 10px 0;
+}
+
+.defintion-word {
+  text-decoration: underline;
 }
